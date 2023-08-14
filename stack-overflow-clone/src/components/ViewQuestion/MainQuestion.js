@@ -30,7 +30,7 @@ function MainQuestion() {
                         <div className="all-questions-left">
                             <div className="all-options">
                             <p className="arrow"><i>▲</i></p>
-                            <p className="num">0</p>
+                            <p className="num"><strong>0</strong></p>
                             <p className="arrow"><i>▼</i></p>
                             <Bookmark />
                             <History />
@@ -76,7 +76,7 @@ function MainQuestion() {
                         <div className="all-questions-left">
                             <div className="all-options">
                             <p className="arrow"><i>▲</i></p>
-                            <p className="num">0</p>
+                            <p className="num"><strong>0</strong></p>
                             <p className="arrow"><i>▼</i></p>
                             <Bookmark />
                             <History />
@@ -110,4 +110,4 @@ function MainQuestion() {
     );
 }
 
-expo
+export default MainQuestion;

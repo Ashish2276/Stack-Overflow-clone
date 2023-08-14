@@ -77,4 +77,14 @@
 .arrow{
     display: flex;
     justify-content: center;
-    align
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #eee;
+    border-radius: 50%;
+    font-size: 1rem;
+    color: rgba(0, 0, 0, 0.75);
+}
+
+
+
